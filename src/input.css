@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 16px;
+    color: #141414;
+}
+
+.active {
+    color: #FF5A30;
+}
+
+.btn {
+    background: #03D6F3;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn2 {
+    background: #E3EFF5;
+    color: #00578A;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #30D7BA;
+    color: #30D7BA;
+    box-shadow: 0px -10px 10px rgba(128, 128, 128, 0.351);
+}
+
+.btn3 {
+    background: #00C6BF;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+@theme {
+  --breakpoint-md: 510px;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+
+
+h1 {
+    font-size: 46px;
+}
+h2,
+h3 {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
